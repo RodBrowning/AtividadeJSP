@@ -29,24 +29,50 @@
             
             <div class="div-exercicio">
                 <div class="numero">
-                    <span>
-                        ?
+                    <span class="exclamacao">
+                        R:
                     </span>
                 </div>
-                <div class="pergunta">                    
-                    <p>Calcula o valor médio de uma sequência de numeros inseridos.</p>
-                    <p>Insira os numeros separados por virgula.</p>
-                    <label for="valores">Valores</label>
-                    <input type="number" name="valores" class="input"/>
+                <div class="resposta">
+                    <p>O resultado dessas eleiçoes é</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td>Brancos</td>
+                                <td>Nulos</td>
+                                <td>Validos</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>23%</td>
+                                <td>34%</td>
+                                <td>23%</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td>Total</td>
+                                <td>345 Eleitores</td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
-                <div class="div-botao">
-                    <button type="button" onclick="window.location.href='./resposta4.html'" class="btn-igual">=</button>
+                <div class="numero">
+                    <span class="exclamacao">
+                        !
+                    </span>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="botoes-finais">
             <div class="div-botao">
-               <button type="button" onclick="window.location.href='./index.html'" class="btn">Mudar pergunta?</button>
+               <button type="button" onclick="window.location.href='./exercicio3.html'" class="btn">Próximas eleições?</button>
+            </div>
+            <p>Ou</p>
+            <div class="div-botao">
+               <button type="button" onclick="window.location.href='./index.html'" class="btn">Outra pergunta?</button>
             </div>
         </section>
     </main>
