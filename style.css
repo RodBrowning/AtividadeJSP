@@ -1,0 +1,209 @@
+body {
+    text-shadow: 1px 1px 0px #0000001f;
+    margin: 0;
+    padding: 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #13c46c;
+}
+main {
+    background-color: #13c46c;
+}
+header {background-image: url(./Logo2.png);background-repeat: no-repeat;background-blend-mode: luminosity;background-position-x: 65%;background-position-y: -50px;background-size: 19em;border-bottom: 1px solid #00ff7f91;color: white;background-color: #eeffee;box-shadow: inset 0px 0px 20px 8px #078f110f;opacity: .95;}
+i.autor {
+    align-self: flex-end;
+    margin-left: auto;
+}
+.div-header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00743a;
+}
+
+header figure {
+    margin: 0;
+}
+header img {
+    width: 50%;
+}
+
+header .titulo {
+    text-align: initial;
+}
+header .titulo h1 {
+    letter-spacing: 5px;
+}
+nav, section {
+    padding: 2em 0;
+    width: 60%;
+    margin: auto;
+}
+
+nav h2, section h2 {
+    color: #42ffa1;
+}
+
+.div-exercicio {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: springgreen;
+}
+.numero {
+    flex: 1;
+    /* background-color: springgreen; */
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00ff7f+0,02d86d+100 */
+    background: rgb(0,255,127); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,255,127,1) 0%, rgba(2,216,109,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,255,127,1) 0%,rgba(2,216,109,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,255,127,1) 0%,rgba(2,216,109,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff7f', endColorstr='#02d86d',GradientType=0 ); /* IE6-9 */
+}
+
+.pergunta {
+    flex: 5;
+    background-color: white;
+    padding: 0px 1em;
+    font-size: large;
+}
+
+.pergunta p a {
+    color: #747474;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: letter-spacing .35s;
+}
+.pergunta p a:hover {
+    letter-spacing: 1px;
+}
+
+.pergunta p:nth-child(2) {
+    color: darkgrey;
+}
+label {
+    color: springgreen;
+}
+.input {
+    border: none;
+    margin: 1em 0;
+    border-bottom: 1px solid springgreen;
+    color: springgreen;
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+}
+::placeholder  {
+    color:springgreen;
+}
+::selection {
+    color: white;
+    background-color: springgreen;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.btn-igual {
+    font-size: 2em;
+}
+.btn:focus, .btn-igual:focus {
+    outline: inset;
+    outline-color: yellowgreen;
+}
+
+.div-botao {
+    flex: 1;
+}
+.div-botao button {
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    border: 0;
+    background-color: #00ff7f;
+    box-shadow: inset 0px -20px 75px -20px #03c463;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: color .65s, background-color .35s, box-shadow .35s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00ff7f+0,02d86d+100 */
+    /* background: rgb(0,255,127); */ /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,255,127,1) 0%, rgba(2,216,109,1) 100%); /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(0,255,127,1) 0%,rgba(2,216,109,1) 100%); */ /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(0,255,127,1) 0%,rgba(2,216,109,1) 100%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff7f', endColorstr='#02d86d',GradientType=0 ); /* IE6-9 */
+}
+.div-botao button:hover {
+    box-shadow: 0 0 0 white;
+    background-color: white;
+    /* background: rgb(255,255,255); */ /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%); */ /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    color: springgreen;
+}
+
+.div-footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+.div-autor {
+    display: none;
+}
+footer {
+    box-shadow: inset 0 0 20px 0px #0000004a;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .div-header {
+        flex-direction:column;
+        padding-top: 1em;
+    }
+    .autor {
+        display: none;
+    }
+    .titulo p, h1{        
+        text-align: center;
+    }
+    nav, section {
+        width: 95%
+    }
+    .div-exercicio {
+        flex-direction: column;
+        border-right: 1px solid;
+        border-left: 1px solid;
+        border-color: springgreen;
+        margin-top: 3em;
+    }
+    .numero {
+        min-height: 1.5em;
+    }
+    .div-autor {
+       display: block;
+    }
+}
+@media screen and (max-width: 920px){
+    header {
+    background: #eeffee;
+    }
+}
