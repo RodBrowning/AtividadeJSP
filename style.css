@@ -3,10 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'ZCOOL XiaoWei', serif;
-    background-color: #13c46c;
-}
-main {
-    background-color: #13c46c;
+    background-color: #10a25a;
 }
 header {background-image: url(./Logo2.png);background-repeat: no-repeat;background-blend-mode: luminosity;background-position-x: 65%;background-position-y: -50px;background-size: 19em;border-bottom: 1px solid #00ff7f91;color: white;background-color: #eeffee;box-shadow: inset 0px 0px 20px 8px #078f110f;opacity: .95;}
 i.autor {
@@ -65,7 +62,7 @@ nav h2, section h2 {
     background: rgb(0, 234, 116); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(0,255,127,1) 0%, rgba(2,216,109,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(0, 234, 116) 0%,rgba(2,216,109,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgb(0, 234, 116) 0%,rgba(2,216,109,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom, rgb(4, 213, 108) 0%,rgb(4, 194, 99) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff7f', endColorstr='#02d86d',GradientType=0 ); /* IE6-9 */
 }
 
@@ -134,7 +131,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 100%;
     min-height: 50px;
     border: 0;
-    background-color: #00ea74;
+    background-color: #04d56c;
     box-shadow: inset 0px -20px 75px -20px #01b058;
     color: white;
     letter-spacing: 3px;
@@ -227,7 +224,7 @@ footer {
         flex-direction: column;
         border-right: 1px solid;
         border-left: 1px solid;
-        border-color: springgreen;
+        border-color: #04d56c;
         margin-top: 3em;
     }
     .numero {
