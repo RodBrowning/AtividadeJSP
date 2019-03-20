@@ -208,8 +208,9 @@ footer {
     .autor {
         display: none;
     }
-    .titulo p, h1{        
+    .titulo p, h1{
         text-align: center;
+        padding: 5px;
     }
     nav, section {
         width: 95%
@@ -240,4 +241,25 @@ footer {
     header {
     background: #eeffee;
     }
+}
+@media screen and (max-height: 750px ) AND ( max-width: 425px){
+    .div-header{
+    	flex-direction: row;
+    	justify-content: space-between;
+    	width: 100%;
+    }
+    
+	.div-logo {
+		flex: 1
+	}
+    .div-header .div-logo figure a img {
+    	width: 70%;
+    }
+    .titulo {
+    	flex: 2;
+    }
+    .titulo h1 {
+    	font-size: 25px;
+    }
+    
 }
