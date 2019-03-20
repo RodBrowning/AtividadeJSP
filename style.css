@@ -49,7 +49,7 @@ nav h2, section h2 {
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: #00ea74;
-}
+} 
 .numero {
     flex: 1;
     color: white;
@@ -63,8 +63,10 @@ nav h2, section h2 {
     background: -webkit-linear-gradient(top, rgb(0, 234, 116) 0%,rgba(2,216,109,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgb(4, 213, 108) 0%,rgb(4, 194, 99) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff7f', endColorstr='#02d86d',GradientType=0 ); /* IE6-9 */
+  }
+.numero span {
+    font-style: italic;
 }
-
 .pergunta, .resposta {
     flex: 5;
     background-color: white;
@@ -221,6 +223,11 @@ footer {
     }
     .numero {
         min-height: 1.5em;
+    }.numero span {
+        font-style: normal;
+    }
+    section.botao-voltar {
+        padding-top: 0;
     }
     section.botoes-finais {
         padding-top: 0;
