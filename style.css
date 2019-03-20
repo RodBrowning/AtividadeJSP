@@ -252,7 +252,7 @@ footer {
 	.div-logo {
 		flex: 1
 	}
-    .div-header .div-logo figure a img {
+    .div-header .div-logo figure img {
     	width: 70%;
     }
     .titulo {
