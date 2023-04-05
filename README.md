@@ -1,3 +1,3 @@
 # Atividade-JSP-Desenvolvimento web 2
 
-Acesse aqui : [https://rodbrowning.github.io/AtividadeJSP](https://rodbrowning.github.io/AtividadeJSP/)
+Acesse aqui : [https://atividade-jsp.vercel.app/](https://atividade-jsp.vercel.app/)
